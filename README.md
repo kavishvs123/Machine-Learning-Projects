@@ -17,4 +17,4 @@ Hi, I'm **Kavish**. This repository features my machine learning and data scienc
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/kavishvs123/Data-Science-Portfolio.git](https://github.com/kavishvs123/Data-Science-Portfolio.git)
+   git clone [https://github.com/kavishvs123/Data-Science-Portfolio.git](https://github.com/kavishvs123/Machine-Learning-Projects.git)
