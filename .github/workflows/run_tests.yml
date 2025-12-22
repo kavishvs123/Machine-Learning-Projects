@@ -1,35 +1,39 @@
-name: Automated Testing
+name: Titanic Project CI
 
-# Trigger execution on push or pull request to the main branch
+# 1. Trigger ONLY on changes to the Titanic folder
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - 'Titanic ML Project/**' 
   pull_request:
     branches: [ "main" ]
+    paths:
+      - 'Titanic ML Project/**'
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    
+    # 2. Set the default working directory for all steps
+    defaults:
+      run:
+        working-directory: ./Titanic ML Project
 
     steps:
-    # 1. Check out the repository code
     - name: Check out code
       uses: actions/checkout@v3
 
-    # 2. Set up Python 3.9 (or your preferred version)
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: "3.9"
 
-    # 3. Install dependencies
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    # 4. Run Tests
-    # We use the configuration from pytest.ini or the -m flag
     - name: Run Pytest
       run: |
         python -m pytest
