@@ -5,11 +5,11 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'titanic-survival-predictions/**' 
+      - 'titanic-survival-prediction/**' 
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'titanic-survival-predictions/**'
+      - 'titanic-survival-prediction/**'
 
 jobs:
   test:
@@ -18,7 +18,7 @@ jobs:
     # 2. Set the default working directory for all steps
     defaults:
       run:
-        working-directory: ./titanic-survival-predictions
+        working-directory: ./titanic-survival-prediction
 
     steps:
     - name: Check out code
