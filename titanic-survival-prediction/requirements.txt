@@ -1,15 +1,6 @@
-# Data Science Core
 pandas
-numpy
 scikit-learn
-joblib
-
-# MLOps Tools
 feast
-dvc
-dvc-s3   # (Optional: Add this if you eventually use S3 storage)
+joblib
 pytest
-
-# Utilities (Fixing the specific errors you saw)
-bigtree
-bleach
+dvc
