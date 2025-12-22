@@ -13,7 +13,7 @@ def raw_titanic_data():
             "Heikkinen, Miss. Laina"
         ],
         "Sex": ["male", "female", "female"],
-        "Age": [22.0, 38.0, None], # Includes a missing value
+        "Age": [22.0, 38.0, None], # Includes a missing val
         "SibSp": [1, 1, 0],
         "Parch": [0, 0, 0],
         "Ticket": ["A/5 21171", "PC 17599", "STON/O2. 3101282"],
