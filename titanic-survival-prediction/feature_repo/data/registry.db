@@ -1,32 +1,0 @@
-
-C
-#
-__dummy"
-__dummy_idJfeature_repo
-¸ÿõÉØÇ·Ê¸ÿõÉØÇ·Ê
-F
-&
-	passenger"PassengerIdJfeature_repo
-¸ÿõÉ¨ÎºÊ¸ÿõÉ¨ÎºÊ1"$86bd74c6-5ace-4652-9f86-37a073048a2c*çÿõÉøßØ2£
-ê
-titanic_passenger_statsfeature_repo	passenger"
-
-Pclass"
-Age"
-
-FamilySize"
-Fare"
-Sex"	
-Title"
-Embarked"
-CabinLetter"
-TicketPrefix2€ç„:§event_timestampZdata/titanic_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/titanic_features.parquet’¸ÿõÉ° ›Â"¸ÿõÉĞ¬³Ê@b
-PassengerId4
-¸ÿõÉÀ½½ÊçÿõÉàˆÎ
-ç˜ñºĞù¶õåÿõÉRÑ
-Î
-,feast.infra.online_stores.sqlite.SqliteTable"
-u/Users/kavish/Documents/Kaggle/GitHub Files from Kaggle/titanic-survival-prediction/feature_repo/data/online_store.db$feature_repo_titanic_passenger_statsb¶event_timestampZdata/titanic_features.parquetŠ1feast.infra.offline_stores.file_source.FileSource¢data/titanic_features.parquetªfeature_repo’¸ÿõÉ° ›Â"¸ÿõÉĞ¬³ÊŠ.
-
-feature_repo
-¸ÿõÉ¸Ş½Â¸ÿõÉ¸Ş½Â
